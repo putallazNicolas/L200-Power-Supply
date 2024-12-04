@@ -32,6 +32,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=0
+ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
@@ -49,6 +50,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=ARRAY.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HMHHJBIU
+
+[Document2]
 DocumentPath=Fuente.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -65,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KMWAFBCB
 
-[Document2]
+[Document3]
 DocumentPath=Fuente.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IIROWIXI
 
-[Document3]
+[Document4]
 DocumentPath=Librerias\SIP343W51P508L2205H198Q4B.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KBWUKVHA
 
-[Document4]
+[Document5]
 DocumentPath=Fuente.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document6]
 DocumentPath=Librerias\PCBLibPutallaz.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UMYWIFNE
 
-[Document6]
+[Document7]
 DocumentPath=Librerias\SchLibPutallaz.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PNRGWIWR
 
-[Document7]
+[Document8]
 DocumentPath=Librerias\Fuente.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IAFDHNBP
 
-[Document8]
+[Document9]
 DocumentPath=Librerias\Fuente.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=USJDXEFM
 
-[Document9]
+[Document10]
 DocumentPath=Project Outputs for Fuente\Job1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -200,23 +218,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document10]
-DocumentPath=ARRAY.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HMHHJBIU
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Fuente\Design Rule Check - Fuente.html
@@ -1219,6 +1220,14 @@ Type127=1
 Type128=1
 Type129=1
 Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
+Type137=1
+Type138=1
 
 [Difference Levels]
 Type1=1
@@ -1416,6 +1425,7 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=0
 AlternateItemFail=3
 Type122=2
 Type123=1
@@ -1447,6 +1457,8 @@ Type148=2
 Type149=2
 Type150=2
 Type151=2
+Type152=1
+Type153=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
